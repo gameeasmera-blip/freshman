@@ -1,0 +1,18 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "components/VideoPlayer.jsx"
+, "components/CourseCard.jsx", "components/PdfViewer.jsx", "components/QuizCard.jsx", "app/index.jsx"  ]
+}
